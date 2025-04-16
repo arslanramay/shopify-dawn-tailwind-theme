@@ -141,6 +141,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Talk about your brand",
             "heading_size": "h1"
@@ -149,7 +150,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Rated <strong>Excellent</strong> – Join Our Community of Thrilled Customers</p>"
           }
         }
       },
@@ -160,9 +161,9 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-5",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -303,8 +304,8 @@
   },
   "order": [
     "image_banner_KxW9FQ",
-    "multicolumn_Cddj6t",
     "rich_text",
+    "multicolumn_Cddj6t",
     "featured_collection",
     "collage",
     "video",
