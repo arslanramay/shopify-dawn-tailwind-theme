@@ -293,6 +293,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Home_Image_1.jpg",
             "title": "<strong>100%</strong>",
             "text": "<p><strong>Plant Based, No Chemicals, All Natural Formulas</strong></p><p>Unlock the secret to beautiful, healthy hair with our <strong>Ayurvedic</strong> hair cosmetics. Drawing on <strong>centuries-old Ayurvedic wisdom</strong>, our products are meticulously crafted from the finest natural ingredients to provide the ultimate care for your hair.</p>",
             "link_label": "",
