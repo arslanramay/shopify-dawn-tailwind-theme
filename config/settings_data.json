@@ -187,7 +187,7 @@
           "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#3a5e52",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#3a5e52",
           "shadow": "#121212"
         }
       }
