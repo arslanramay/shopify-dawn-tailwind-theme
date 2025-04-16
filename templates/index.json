@@ -57,6 +57,37 @@
         "show_text_below": false
       }
     },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rated <strong>Excellent</strong> – Join Our Community of Thrilled Customers</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "multicolumn_Cddj6t": {
       "type": "multicolumn",
       "blocks": {
@@ -136,32 +167,38 @@
         "padding_bottom": 16
       }
     },
-    "rich_text": {
+    "rich_text_Ha94tC": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
+        "heading_4pWJmn": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Award-Winning Hair Growth Solutions100% Natural & Proven",
+            "heading_size": "h2"
           }
         },
-        "text": {
+        "text_BKQFFJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Rated <strong>Excellent</strong> – Join Our Community of Thrilled Customers</p>"
+            "text": "<p>100% Natural & Proven</p>"
+          }
+        },
+        "text_HwBWxK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We craft 100% natural, Ayurvedic-powered hair care that nourishes your scalp, strengthens strands, and brings out your hair’s best—without harsh chemicals. Backed by centuries-old herbs and modern science, our products help you regrow, revive, and rejoice in hair that feels alive.</p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading_4pWJmn",
+        "text_BKQFFJ",
+        "text_HwBWxK"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
@@ -306,6 +343,7 @@
     "image_banner_KxW9FQ",
     "rich_text",
     "multicolumn_Cddj6t",
+    "rich_text_Ha94tC",
     "featured_collection",
     "collage",
     "video",
