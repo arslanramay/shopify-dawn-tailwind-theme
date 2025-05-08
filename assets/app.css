@@ -15,6 +15,9 @@
 .container {
   width: 100%;
 }
+.mx-auto {
+  margin-inline: auto;
+}
 .block {
   display: block;
 }
@@ -36,6 +39,9 @@
 .w-full {
   width: 100%;
 }
+.max-w-\[580px\] {
+  max-width: 580px;
+}
 .grow {
   flex-grow: 1;
 }
@@ -45,14 +51,11 @@
 .resize {
   resize: both;
 }
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
 .flex-wrap {
   flex-wrap: wrap;
 }
-.items-center {
-  align-items: center;
+.items-start {
+  align-items: flex-start;
 }
 .truncate {
   overflow: hidden;
