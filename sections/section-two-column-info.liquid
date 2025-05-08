@@ -24,13 +24,12 @@
         {%- if block.settings.subheading != blank -%}
           <h3 class="h3 mb-2">{{ block.settings.subheading }}</h3>
         {%- endif -%}
-
         {%- if block.settings.content != blank -%}
           <div class="rte mb-4">{{ block.settings.content }}</div>
         {%- endif -%}
 
         {%- if block.settings.image != blank -%}
-          <div class="image-container mt-4">
+          <div class="image-container mt-4" style="width: {{ block.settings.image_width_percent }}%;">
             <img
               src="{{ block.settings.image | image_url: width: 1000 }}"
               loading="lazy"
@@ -39,6 +38,7 @@
             >
           </div>
         {%- endif -%}
+
       </div>
     {%- endfor -%}
   </div>
@@ -78,37 +78,40 @@
     }
   ],
   "blocks": [
-    {
-      "type": "column",
-      "name": "Column",
-      "limit": 2,
-      "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "label": "Heading",
-          "default": "Healthy Hair 360º"
-        },
-        {
-          "type": "text",
-          "id": "subheading",
-          "label": "Subheading",
-          "default": "Powerful Individually, Unstoppable As One"
-        },
-        {
-          "type": "richtext",
-          "id": "content",
-          "label": "Content",
-          "default": "<p>This is a sample description text.</p>"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        }
-      ]
-    }
-  ],
+  {
+    "type": "column",
+    "name": "Column",
+    "limit": 2,
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Powerful Individually, Unstoppable As One"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default": "<p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "image_width_percent",
+        "label": "Image Width (%)",
+        "default": 60,
+        "min": 10,
+        "max": 100,
+        "step": 5
+      }
+    ]
+  }
+],
   "max_blocks": 2,
   "presets": [
     {
