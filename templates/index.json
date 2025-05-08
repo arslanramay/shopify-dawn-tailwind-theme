@@ -206,6 +206,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -337,19 +338,22 @@
       "blocks": {
         "column_BHrMpx": {
           "type": "column",
+          "name": "Left Column",
           "settings": {
-            "heading": "Healthy Hair 360º",
-            "description": "<p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
+            "heading": "",
+            "description": "<p><strong>Plant Based, No Chemicals, All Natural Formulas</strong></p><p>Unlock the secret to beautiful, healthy hair with our <strong>Ayurvedic</strong> hair cosmetics. Drawing on <strong>centuries-old Ayurvedic wisdom</strong>, our products are meticulously crafted from the finest natural ingredients to provide the ultimate care for your hair.</p>",
             "image": "shopify://shop_images/Home_Image_1.jpg",
-            "image_width_percent": 60
+            "image_width_percent": 50
           }
         },
         "column_DxfNNp": {
           "type": "column",
+          "name": "Right Column",
           "settings": {
             "heading": "Healthy Hair 360º",
             "description": "<p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
-            "image_width_percent": 60
+            "image": "shopify://shop_images/Home_Image_1.jpg",
+            "image_width_percent": 50
           }
         }
       },
