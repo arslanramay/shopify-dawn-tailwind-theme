@@ -15,19 +15,19 @@
 
 <div class="color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
   <div class="page-width">
-    <div class="grid md:grid-cols-2 gap-12 items-start">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {%- for block in section.blocks -%}
-        <div class="w-full max-w-[580px] mx-auto md:mx-0 text-left" {{ block.shopify_attributes }}>
+        <div class="w-full text-left space-y-4" {{ block.shopify_attributes }}>
           {%- if block.settings.heading != blank -%}
-            <h2 class="h2 mb-4">{{ block.settings.heading }}</h2>
+            <h2 class="h2">{{ block.settings.heading }}</h2>
           {%- endif -%}
 
           {%- if block.settings.description != blank -%}
-            <div class="rte mb-4">{{ block.settings.description }}</div>
+            <div class="rte">{{ block.settings.description }}</div>
           {%- endif -%}
 
           {%- if block.settings.image != blank -%}
-            <div class="image-container mt-4" style="width: {{ block.settings.image_width_percent }}%;">
+            <div class="mt-4" style="width: {{ block.settings.image_width_percent }}%;">
               <img
                 src="{{ block.settings.image | image_url: width: 1000 }}"
                 loading="lazy"
@@ -115,12 +115,8 @@
     {
       "name": "Two Column Info",
       "blocks": [
-        {
-          "type": "column"
-        },
-        {
-          "type": "column"
-        }
+        { "type": "column" },
+        { "type": "column" }
       ]
     }
   ]
