@@ -317,7 +317,7 @@
         "column2"
       ],
       "settings": {
-        "title": "",
+        "title": "<strong>Healthy Hair 360º</strong>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -361,7 +361,7 @@
       ],
       "name": "Two Column Info",
       "settings": {
-        "title": "Default title",
+        "title": "<strong>Healthy Hair 360º</strong>",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
