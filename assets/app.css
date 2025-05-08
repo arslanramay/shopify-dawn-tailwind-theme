@@ -30,6 +30,12 @@
 .table {
   display: table;
 }
+.h-auto {
+  height: auto;
+}
+.w-full {
+  width: 100%;
+}
 .grow {
   flex-grow: 1;
 }
@@ -39,8 +45,14 @@
 .resize {
   resize: both;
 }
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
 .flex-wrap {
   flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
 }
 .truncate {
   overflow: hidden;
@@ -49,6 +61,12 @@
 }
 .overflow-hidden {
   overflow: hidden;
+}
+.object-contain {
+  object-fit: contain;
+}
+.text-left {
+  text-align: left;
 }
 .capitalize {
   text-transform: capitalize;
