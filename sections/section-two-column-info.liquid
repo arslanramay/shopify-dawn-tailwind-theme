@@ -13,8 +13,8 @@
 }
 {%- endstyle -%}
 
-<div class="section-custom-two-column-info color-{{ section.settings.color_scheme }}">
-  <div class="page-width section-{{ section.id }}-padding" style="outline: 1px solid blue;">
+<div class="section-custom-two-column-info color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}">
+  <div class="page-width section-{{ section.id }}-padding">
     <div class="grid grid--1-col-tablet-down grid--2-col-desktop">
       {%- for block in section.blocks -%}
         <div class="multicolumn-list__item grid__item" {{ block.shopify_attributes }}>
@@ -27,7 +27,7 @@
           {%- endif -%}
 
           {%- if block.settings.image != blank -%}
-            <div class="mt-4" style="width: {{ block.settings.image_width_percent }}%;">
+            <div class="mt-4">
               <img
                 src="{{ block.settings.image | image_url: width: 1000 }}"
                 loading="lazy"
@@ -49,9 +49,130 @@
   "class": "section",
   "settings": [
     {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Small"
+        },
+        {
+          "value": "h1",
+          "label": "Medium"
+        },
+        {
+          "value": "h0",
+          "label": "Large"
+        }
+      ],
+      "default": "h1",
+      "label": "Heading size"
+    },
+    {
+      "type": "select",
+      "id": "image_width",
+      "options": [
+        {
+          "value": "third",
+          "label": "One third"
+        },
+        {
+          "value": "half",
+          "label": "One half"
+        },
+        {
+          "value": "full",
+          "label": "Full width of column"
+        }
+      ],
+      "default": "full",
+      "label": "Image width"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "portrait",
+          "label": "Portrait"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        },
+        {
+          "value": "circle",
+          "label": "Circle"
+        }
+      ],
+      "default": "adapt",
+      "label": "Image ratio"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 2,
+      "label": "Number of columns on desktop"
+    },
+    {
+      "type": "select",
+      "id": "column_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left",
+      "label": "Column alignment"
+    },
+    {
+      "type": "select",
+      "id": "background_style",
+      "options": [
+        {
+          "value": "none",
+          "label": "None"
+        },
+        {
+          "value": "primary",
+          "label": "Primary"
+        }
+      ],
+      "default": "none",
+      "label": "Secondary background"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "Color Scheme",
+      "label": "Color scheme",
       "default": "scheme-1"
     },
     {
@@ -61,7 +182,7 @@
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "Padding Top",
+      "label": "Padding top",
       "default": 36
     },
     {
@@ -71,7 +192,7 @@
       "max": 100,
       "step": 4,
       "unit": "px",
-      "label": "Padding Bottom",
+      "label": "Padding bottom",
       "default": 36
     }
   ],
@@ -97,15 +218,6 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
-        },
-        {
-          "type": "range",
-          "id": "image_width_percent",
-          "label": "Image Width (%)",
-          "default": 60,
-          "min": 10,
-          "max": 100,
-          "step": 5
         }
       ]
     }
