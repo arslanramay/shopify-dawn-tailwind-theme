@@ -331,6 +331,39 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "section_two_column_info_BPKdLF": {
+      "type": "section-two-column-info",
+      "blocks": {
+        "column_BHrMpx": {
+          "type": "column",
+          "settings": {
+            "heading": "Healthy Hair 360º",
+            "subheading": "Plant Based, No Chemicals, All Natural Formulas",
+            "content": "<p>This is a sample description text.</p>",
+            "image": "shopify://shop_images/Home_Image_1.jpg"
+          }
+        },
+        "column_DxfNNp": {
+          "type": "column",
+          "settings": {
+            "heading": "Healthy Hair 360º",
+            "subheading": "Powerful Individually, Unstoppable As One",
+            "content": "<p>This is a sample description text.</p>",
+            "image": "shopify://shop_images/regrowz_ultimateKit_noBG_vertical.png"
+          }
+        }
+      },
+      "block_order": [
+        "column_BHrMpx",
+        "column_DxfNNp"
+      ],
+      "name": "Two Column Info",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -341,6 +374,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "section_two_column_info_BPKdLF"
   ]
 }
