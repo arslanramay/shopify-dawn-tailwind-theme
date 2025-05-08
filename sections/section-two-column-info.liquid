@@ -14,7 +14,7 @@
 {%- endstyle -%}
 
 <div class="section-custom-two-column-info color-{{ section.settings.color_scheme }}">
-  <div class="page-width section-{{ section.id }}-padding">
+  <div class="page-width section-{{ section.id }}-padding" style="outline: 1px solid blue;">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {%- for block in section.blocks -%}
         <div class="w-full text-left space-y-4" {{ block.shopify_attributes }}>
