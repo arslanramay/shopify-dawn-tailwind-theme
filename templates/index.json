@@ -362,7 +362,7 @@
       "custom_css": [
         ".title-wrapper-with-link {justify-content: center;}"
       ],
-      "name": "Two Column Info",
+      "name": "RG: Two Column Info",
       "settings": {
         "title": "<strong>Healthy Hair 360º</strong>",
         "heading_size": "h1",
