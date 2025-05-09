@@ -45,9 +45,7 @@
 
           {%- if block.settings.image != blank -%}
             <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
-              <div
-                class="media99 99media--transparent media--{{ section.settings.image_ratio }}"
-              >
+              <div class="media99 99media--transparent media--{{ section.settings.image_ratio }}">
                 <img
                   src="{{ block.settings.image | image_url: width: 1000 }}"
                   loading="lazy"
