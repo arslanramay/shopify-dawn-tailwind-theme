@@ -340,8 +340,8 @@
           "type": "column",
           "name": "Left Column",
           "settings": {
-            "heading": "<strong>Plant Based, No Chemicals, All Natural Formulas</strong>",
-            "description": "<p>Unlock the secret to beautiful, healthy hair with our <strong>Ayurvedic</strong> hair cosmetics. Drawing on <strong>centuries-old Ayurvedic wisdom</strong>, our products are meticulously crafted from the finest natural ingredients to provide the ultimate care for your hair.</p>",
+            "heading": "<strong>100%</strong>",
+            "description": "<p><strong>Plant Based, No Chemicals, All Natural Formulas</strong></p><p>Unlock the secret to beautiful, healthy hair with our <strong>Ayurvedic</strong> hair cosmetics. Drawing on <strong>centuries-old Ayurvedic wisdom</strong>, our products are meticulously crafted from the finest natural ingredients to provide the ultimate care for your hair.</p>",
             "image": "shopify://shop_images/Screenshot_2025-05-08_at_11.39.46_PM.png"
           }
         },
@@ -349,8 +349,8 @@
           "type": "column",
           "name": "Right Column",
           "settings": {
-            "heading": "<strong>Why use one when</strong>",
-            "description": "<p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
+            "heading": "<strong>Powerful Individually, Unstoppable As One</strong>",
+            "description": "<p><strong>Why use one when</strong></p><p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
             "image": "shopify://shop_images/regrowz_ultimateKit_noBG_1.png"
           }
         }
