@@ -141,6 +141,7 @@
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image with text",
             "heading_size": "h1"
@@ -148,6 +149,7 @@
         },
         "image-with-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
