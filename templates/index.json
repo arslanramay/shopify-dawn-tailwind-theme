@@ -44,7 +44,8 @@
         "buttons_Lx9AKk"
       ],
       "custom_css": [
-        ".banner__text.subtitle p {font-size: 1.5em;}"
+        ".banner__text.subtitle p {font-size: 1.5em;}",
+        ".banner__buttons a {font-size: 2rem;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Home_Banner_1.jpg",
