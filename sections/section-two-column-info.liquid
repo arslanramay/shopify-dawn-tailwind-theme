@@ -51,15 +51,16 @@
                   style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                 {% endif %}
               >
+              </div>
             </div>
-            {% comment %} <div class="mt-4">
+            <div class="mt-4" style="display: none;">
               <img
                 src="{{ block.settings.image | image_url: width: 1000 }}"
                 loading="lazy"
                 alt="{{ block.settings.image.alt | escape }}"
                 class="w-full h-auto object-contain"
               >
-            </div> {% endcomment %}
+            </div>
           {%- endif -%}
           </div>
         </div>
