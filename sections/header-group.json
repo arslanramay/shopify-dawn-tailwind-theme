@@ -25,6 +25,9 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "custom_css": [
+        ".utility-bar {background-color: #3a5e52;}"
+      ],
       "settings": {
         "color_scheme": "",
         "show_line_separator": false,
