@@ -43,6 +43,9 @@
         "heading_wQJtii",
         "buttons_Lx9AKk"
       ],
+      "custom_css": [
+        ".banner__text.subtitle p {font-size: 1.5em;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Home_Banner_1.jpg",
         "image_overlay_opacity": 0,
