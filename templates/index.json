@@ -45,7 +45,7 @@
       ],
       "custom_css": [
         ".banner__text.subtitle p {font-size: 1.5em;}",
-        ".banner__buttons a {font-size: 2rem;}"
+        ".banner__buttons a {font-size: 2rem; font-weight: 600;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Home_Banner_1.jpg",
