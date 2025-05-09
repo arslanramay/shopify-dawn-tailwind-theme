@@ -59,6 +59,7 @@
         "description": {
           "type": "description",
           "name": "Product Description",
+          "disabled": true,
           "settings": {}
         },
         "collapsible-row-0": {
