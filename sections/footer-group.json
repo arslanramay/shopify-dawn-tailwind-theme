@@ -14,15 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_ebqMcN": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/logo_regrowz_header_11.png",
-            "image_width": 100,
-            "alignment": "center"
-          }
-        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -54,7 +45,6 @@
         }
       },
       "block_order": [
-        "image_ebqMcN",
         "footer-2",
         "footer-0",
         "footer-1",
