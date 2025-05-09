@@ -94,7 +94,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Text goes here...</p>",
+            "content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}</p>",
             "page": ""
           }
         },
