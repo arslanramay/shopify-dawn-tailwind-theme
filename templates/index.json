@@ -149,7 +149,7 @@
         "column_jmcemz",
         "column_DPDkY8"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "RG: Brand Logos",
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -316,6 +316,7 @@
         "column1",
         "column2"
       ],
+      "disabled": true,
       "settings": {
         "title": "<strong>Healthy Hair 360º</strong>",
         "heading_size": "h1",
