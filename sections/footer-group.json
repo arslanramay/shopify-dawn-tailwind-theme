@@ -30,6 +30,14 @@
             "subtext": "<p>UK Customer Support: +4400000000</p><p>USA Customer Support: +1987566556</p>"
           }
         },
+        "footer-0": {
+          "type": "link_list",
+          "name": "Menu",
+          "settings": {
+            "heading": "Products",
+            "menu": "footer"
+          }
+        },
         "footer-1": {
           "type": "link_list",
           "settings": {
@@ -37,10 +45,10 @@
             "menu": "about"
           }
         },
-        "footer-0": {
+        "link_list_G6Wwzt": {
           "type": "link_list",
           "settings": {
-            "heading": "Products",
+            "heading": "Quick links",
             "menu": "footer"
           }
         }
@@ -48,8 +56,9 @@
       "block_order": [
         "image_ebqMcN",
         "footer-2",
+        "footer-0",
         "footer-1",
-        "footer-0"
+        "link_list_G6Wwzt"
       ],
       "settings": {
         "color_scheme": "scheme-2",
