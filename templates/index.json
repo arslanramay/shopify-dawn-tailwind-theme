@@ -74,6 +74,9 @@
       "block_order": [
         "text"
       ],
+      "custom_css": [
+        ".rich-text__blocks p {color: #fff;}"
+      ],
       "name": "RG: Rich text",
       "settings": {
         "desktop_content_position": "center",
