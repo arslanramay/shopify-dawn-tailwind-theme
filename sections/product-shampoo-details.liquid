@@ -1,14 +1,36 @@
 {% stylesheet %}
-.section-product-shampoo-details {
-  background-color: #194D40; /* ✅ Green background */
-  color: #ffffff;
-}
-.percentage-heading {
-  font-size: 120px;
-  font-weight: 800;
-  line-height: 1;
-}
+  /*.section-product-shampoo-details {
+    background-color: #194D40;
+    color: #ffffff;
+  }
+  .percentage-heading {
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 1;
+  }*/
 {% endstylesheet %}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .section-product-shampoo-details {
+    background-color: #194D40; /* ✅ Green background */
+    color: #ffffff;
+  }
+  .percentage-heading {
+    font-size: 120px;
+    font-weight: 800;
+    line-height: 1;
+  }
+{%- endstyle -%}
 
 <div class="section-product-shampoo-details color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px] max-w-screen-xl mx-auto px-4">
