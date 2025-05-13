@@ -311,13 +311,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_KrAXby": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column1",
-        "column2"
+        "column2",
+        "column_KrAXby"
       ],
-      "disabled": true,
       "settings": {
         "title": "<strong>Healthy Hair 360º</strong>",
         "heading_size": "h1",
@@ -335,36 +344,31 @@
         "padding_bottom": 36
       }
     },
-    "section_two_column_info_BPKdLF": {
-      "type": "section-two-column-info",
+    "section_multicolumn_type_1_D6BhdG": {
+      "type": "section-multicolumn-type-1",
       "blocks": {
-        "column_BHrMpx": {
+        "column_zFEK4E": {
           "type": "column",
-          "name": "Left Column",
           "settings": {
-            "heading": "<strong>100%</strong>",
-            "description": "<p><strong>Plant Based, No Chemicals, All Natural Formulas</strong></p><p>Unlock the secret to beautiful, healthy hair with our <strong>Ayurvedic</strong> hair cosmetics. Drawing on <strong>centuries-old Ayurvedic wisdom</strong>, our products are meticulously crafted from the finest natural ingredients to provide the ultimate care for your hair.</p>",
+            "heading": "Powerful Individually, Unstoppable As One",
+            "description": "<p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
             "image": "shopify://shop_images/Screenshot_2025-05-08_at_11.39.46_PM.png"
           }
         },
-        "column_DxfNNp": {
+        "column_HgYQ6P": {
           "type": "column",
-          "name": "Right Column",
           "settings": {
-            "heading": "<strong>Powerful Individually, Unstoppable As One</strong>",
-            "description": "<p><strong>Why use one when</strong></p><p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
+            "heading": "Powerful Individually, Unstoppable As One",
+            "description": "<p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
             "image": "shopify://shop_images/regrowz_ultimateKit_noBG_1.png"
           }
         }
       },
       "block_order": [
-        "column_BHrMpx",
-        "column_DxfNNp"
+        "column_zFEK4E",
+        "column_HgYQ6P"
       ],
-      "custom_css": [
-        ".title-wrapper-with-link {justify-content: center;}"
-      ],
-      "name": "RG: Two Column Info",
+      "name": "RG - Multicolumn Section Type 1",
       "settings": {
         "title": "<strong>Healthy Hair 360º</strong>",
         "heading_size": "h0",
@@ -374,7 +378,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
-        "button_link": "shopify://collections/hair-products",
+        "button_link": "",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -390,6 +394,6 @@
     "collage",
     "video",
     "multicolumn",
-    "section_two_column_info_BPKdLF"
+    "section_multicolumn_type_1_D6BhdG"
   ]
 }
