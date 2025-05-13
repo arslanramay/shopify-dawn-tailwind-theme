@@ -1,39 +1,36 @@
 {% stylesheet %}
-  .section-padding {
-    @apply py-9 md:py-12;
-  }
+.section-shampoo-details {
+  background-color: #194D40; /* ✅ Green background */
+  color: #ffffff;
+}
+.percentage-heading {
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 1;
+}
 {% endstylesheet %}
 
-<div class="bg-primary text-foreground section-padding" style="--padding-top: {{ section.settings.padding_top }}px; --padding-bottom: {{ section.settings.padding_bottom }}px;">
+<div class="section-shampoo-details py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px]">
   <div class="max-w-screen-xl mx-auto px-4">
-    <h2 class="text-2xl font-bold mb-8 text-center">{{ section.settings.heading }}</h2>
+    <!-- ✅ Editable Section Heading -->
+    <h2 class="text-2xl font-bold text-center mb-10">{{ section.settings.heading }}</h2>
 
     <div class="grid md:grid-cols-2 gap-8">
-      <!-- Left Features Grid -->
+      <!-- ✅ Dynamic Feature Blocks -->
       <div class="grid sm:grid-cols-2 gap-6">
-        {% assign features = 
-          "Thickens Hair|Our shampoo will nourish and strengthen your hair, making it noticeably thicker.;" |
-          append: "Grows Hair|By strengthening and nourishing your hair, maximum hair growth will be achieved.;" |
-          append: "Essential Vitamins|A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth.;" |
-          append: "No Chemicals|No adverse chemicals, sulfates, paraben and silicone free;" |
-          append: "100% Organic|Plant based, all natural formula, developed for the ultimate results.;" |
-          append: "Quick Results|Our shampoo works fast, expect to see results after just a few washes."
-        | split: ";" %}
-
-        {% for feature in features %}
-          {% assign parts = feature | split: "|" %}
-          <div>
-            <h3 class="text-lg font-semibold text-accent">{{ parts[0] }}</h3>
-            <p class="text-sm mt-1">{{ parts[1] }}</p>
+        {% for block in section.blocks %}
+          <div class="space-y-2">
+            <h3 class="text-lg font-semibold text-[#4CD7A8]">{{ block.settings.title }}</h3>
+            <p class="text-sm text-white">{{ block.settings.text }}</p>
           </div>
         {% endfor %}
       </div>
 
-      <!-- Right Large Stat -->
-      <div class="flex flex-col items-center justify-center text-center">
-        <p class="text-accent font-semibold text-lg mb-1">Plant Based</p>
-        <h2 class="text-[120px] leading-none font-extrabold text-white">100%</h2>
-        <p class="mt-4 max-w-sm text-base text-white">{{ section.settings.description }}</p>
+      <!-- ✅ 100% Panel -->
+      <div class="flex flex-col items-center justify-center text-center text-white px-4">
+        <p class="text-[#4CD7A8] font-semibold text-lg mb-2">Plant Based</p>
+        <h2 class="percentage-heading">100%</h2>
+        <p class="mt-4 max-w-sm text-base">{{ section.settings.description }}</p>
       </div>
     </div>
   </div>
@@ -55,7 +52,7 @@
       "type": "textarea",
       "id": "description",
       "default": "Our Thickening Shampoo will help your hairline look noticeably thicker.",
-      "label": "Right Panel Description"
+      "label": "Right Side Description"
     },
     {
       "type": "range",
@@ -78,9 +75,74 @@
       "label": "Padding bottom"
     }
   ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Text Feature Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Thickens Hair",
+          "label": "Feature Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "default": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker.",
+          "label": "Feature Description"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6,
   "presets": [
     {
-      "name": "Product Shampoo Details"
+      "name": "Product Shampoo Details",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Thickens Hair",
+            "text": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Grows Hair",
+            "text": "By strengthening and nourishing your hair, maximum hair growth will be achieved."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Essential Vitamins",
+            "text": "A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "No Chemicals",
+            "text": "No adverse chemicals, sulfates, paraben and silicone free."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "100% Organic",
+            "text": "Plant based, all natural formula, developed for the ultimate results."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Quick Results",
+            "text": "Our shampoo works fast, expect to see results after just a few washes."
+          }
+        }
+      ]
     }
   ]
 }
