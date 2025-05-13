@@ -55,7 +55,7 @@
       </div>
 
       <!-- ✅ Right Column -->
-      <div class="multicolumn-list__item grid__item left">
+      <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}">
         <p class="text-[#4CD7A8] font-semibold text-lg mb-2">Plant Based</p>
         <h2 class="percentage-heading">100%</h2>
         <p class="mt-4 max-w-sm text-base">{{ section.settings.description }}</p>
