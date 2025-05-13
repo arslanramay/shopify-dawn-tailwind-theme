@@ -47,6 +47,7 @@
         ".banner__text.subtitle p {font-size: 1.5em;}",
         ".banner__buttons a {font-size: 2rem; font-weight: 600;}"
       ],
+      "name": "Image Banner",
       "settings": {
         "image": "shopify://shop_images/Home_Banner_1.jpg",
         "image_overlay_opacity": 0,
@@ -148,7 +149,7 @@
         "column_jmcemz",
         "column_DPDkY8"
       ],
-      "name": "RG: Brand Logos",
+      "name": "Brand Logos",
       "settings": {
         "title": "",
         "heading_size": "h1",
