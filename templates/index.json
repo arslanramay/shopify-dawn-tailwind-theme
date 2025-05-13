@@ -376,6 +376,9 @@
         "column_zFEK4E",
         "column_HgYQ6P"
       ],
+      "custom_css": [
+        ".multicolumn__title {justify-content: center;}"
+      ],
       "name": "RG - Multicolumn Section Type 1",
       "settings": {
         "title": "<strong>Healthy Hair 360º</strong>",
