@@ -22,7 +22,7 @@
 
 <div class="section-product-shampoo-details color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px] max-w-screen-xl mx-auto px-4">
-    <!-- ✅ Editable Section Heading -->
+    <!-- ✅ Section Heading -->
     <h2 class="text-2xl XXX font-bold text-center mb-10">{{ section.settings.heading }}</h2>
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
@@ -70,6 +70,12 @@
       "id": "description",
       "default": "Our Thickening Shampoo will help your hairline look noticeably thicker.",
       "label": "Right Side Description"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
     },
     {
       "type": "range",
