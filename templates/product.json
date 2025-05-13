@@ -233,22 +233,6 @@
             "text": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker."
           }
         },
-        "feature_ir9G64": {
-          "type": "feature",
-          "name": "Essential Vitamins",
-          "settings": {
-            "title": "<strong>Essential Vitamins</strong>",
-            "text": "A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth."
-          }
-        },
-        "feature_NpjGMG": {
-          "type": "feature",
-          "name": "100% Organic",
-          "settings": {
-            "title": "<strong>100% Organic</strong>",
-            "text": "Plant based, all natural formula, developed for the ultimate results."
-          }
-        },
         "feature_gMNHr4": {
           "type": "feature",
           "name": "Grows Hair",
@@ -257,12 +241,28 @@
             "text": "By strengthening and nourishing your hair, maximum hair growth will be achieved"
           }
         },
+        "feature_ir9G64": {
+          "type": "feature",
+          "name": "Essential Vitamins",
+          "settings": {
+            "title": "<strong>Essential Vitamins</strong>",
+            "text": "A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth."
+          }
+        },
         "feature_CdKzxw": {
           "type": "feature",
           "name": "No Chemicals",
           "settings": {
             "title": "<strong>No Chemicals</strong>",
             "text": "No adverse chemicals, sulfates, paraben and silicone free"
+          }
+        },
+        "feature_NpjGMG": {
+          "type": "feature",
+          "name": "100% Organic",
+          "settings": {
+            "title": "<strong>100% Organic</strong>",
+            "text": "Plant based, all natural formula, developed for the ultimate results."
           }
         },
         "feature_hWPkCz": {
@@ -276,10 +276,10 @@
       },
       "block_order": [
         "feature_GBdiUN",
-        "feature_ir9G64",
-        "feature_NpjGMG",
         "feature_gMNHr4",
+        "feature_ir9G64",
         "feature_CdKzxw",
+        "feature_NpjGMG",
         "feature_hWPkCz"
       ],
       "name": "Product Shampoo Details",
