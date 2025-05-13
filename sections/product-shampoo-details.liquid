@@ -10,8 +10,11 @@
     }
   }
   .section-product-shampoo-details {
-    background-color: #194D40; /* ✅ Green background */
-    color: #ffffff;
+    /* background-color: #194D40;
+    color: #ffffff; */
+  }
+  p.text-sm.text-white {
+    color: #fff;
   }
   .percentage-heading {
     font-size: 120px;
@@ -37,20 +40,19 @@
 
     <div class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
 
-      <!-- ✅ Left Column -->
-      {% comment %} <div class="multicolumn-list__item grid__item left"> {% endcomment %}
+      <!-- Left Column -->
       <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }} col-left">
         {% for block in section.blocks %}
           <div class="multicolumn-card content-container">
             <div class="multicolumn-card__info">
-              <h3 class="inline-richtext text-[#4CD7A8] font-semibold text-lg">{{ block.settings.title }}</h3>
+              <h3 class="inline-richtext font-semibold text-lg">{{ block.settings.title }}</h3>
               <p class="text-sm text-white">{{ block.settings.text }}</p>
             </div>
           </div>
         {% endfor %}
       </div>
 
-      <!-- ✅ Right Column -->
+      <!-- Right Column -->
       <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }} col-right">
         <p class="text-[#4CD7A8] font-semibold text-lg mb-2">Plant Based</p>
         <h2 class="percentage-heading">100%</h2>
@@ -101,17 +103,11 @@
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
-    // {
-    //   "type": "text",
-    //   "id": "heading",
-    //   "default": "Why Buy Our Hair Thickening Shampoo?",
-    //   "label": "Section Heading"
-    // },
     {
       "type": "textarea",
       "id": "description",
-      "default": "Our Thickening Shampoo will help your hairline look noticeably thicker.",
-      "label": "Right Side Description"
+      "default": "Description text goes here",
+      "label": "Right Column Description"
     },
     {
       "type": "color_scheme",
@@ -196,19 +192,19 @@
   "blocks": [
     {
       "type": "feature",
-      "name": "Text Feature Block",
+      "name": "Text Block",
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "title",
-          "default": "Thickens Hair",
-          "label": "Feature Title"
+          "default": "Block Title",
+          "label": "Block Title"
         },
         {
           "type": "textarea",
           "id": "text",
-          "default": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker.",
-          "label": "Feature Description"
+          "default": "Description text goes here",
+          "label": "Block Description"
         }
       ]
     }
