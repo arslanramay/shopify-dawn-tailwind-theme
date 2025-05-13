@@ -227,6 +227,7 @@
       "blocks": {
         "feature_GBdiUN": {
           "type": "feature",
+          "name": "Thickens Hair",
           "settings": {
             "title": "Thickens Hair",
             "text": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker."
@@ -234,6 +235,7 @@
         },
         "feature_ir9G64": {
           "type": "feature",
+          "name": "Essential Vitamins",
           "settings": {
             "title": "Essential Vitamins",
             "text": "A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth."
@@ -241,6 +243,7 @@
         },
         "feature_NpjGMG": {
           "type": "feature",
+          "name": "100% Organic",
           "settings": {
             "title": "100% Organic",
             "text": "Plant based, all natural formula, developed for the ultimate results."
