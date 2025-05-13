@@ -229,7 +229,7 @@
           "type": "feature",
           "name": "Thickens Hair",
           "settings": {
-            "title": "Thickens Hair",
+            "title": "<strong>Thickens Hair</strong>",
             "text": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker."
           }
         },
@@ -237,7 +237,7 @@
           "type": "feature",
           "name": "Essential Vitamins",
           "settings": {
-            "title": "Essential Vitamins",
+            "title": "<strong>Essential Vitamins</strong>",
             "text": "A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth."
           }
         },
@@ -245,7 +245,7 @@
           "type": "feature",
           "name": "100% Organic",
           "settings": {
-            "title": "100% Organic",
+            "title": "<strong>100% Organic</strong>",
             "text": "Plant based, all natural formula, developed for the ultimate results."
           }
         },
@@ -253,7 +253,7 @@
           "type": "feature",
           "name": "Grows Hair",
           "settings": {
-            "title": "Grows Hair",
+            "title": "<strong>Grows Hair</strong>",
             "text": "By strengthening and nourishing your hair, maximum hair growth will be achieved"
           }
         },
@@ -261,7 +261,7 @@
           "type": "feature",
           "name": "No Chemicals",
           "settings": {
-            "title": "No Chemicals",
+            "title": "<strong>No Chemicals</strong>",
             "text": "No adverse chemicals, sulfates, paraben and silicone free"
           }
         },
@@ -269,7 +269,7 @@
           "type": "feature",
           "name": "Quick Results",
           "settings": {
-            "title": "Quick Results",
+            "title": "<strong>Quick Results</strong>",
             "text": "Our shampoo works fast, expect to see results after just a few washes."
           }
         }
