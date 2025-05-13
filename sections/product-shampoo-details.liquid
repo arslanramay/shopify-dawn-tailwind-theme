@@ -1,15 +1,3 @@
-{% stylesheet %}
-  /*.section-product-shampoo-details {
-    background-color: #194D40;
-    color: #ffffff;
-  }
-  .percentage-heading {
-    font-size: 120px;
-    font-weight: 800;
-    line-height: 1;
-  }*/
-{% endstylesheet %}
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -36,6 +24,13 @@
   <div class="page-width section-{{ section.id }}-padding py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px] max-w-screen-xl mx-auto px-4">
     <!-- ✅ Editable Section Heading -->
     <h2 class="text-2xl font-bold text-center mb-10">{{ section.settings.heading }}</h2>
+    {%- unless section.settings.heading == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.heading }}
+        </h2>
+      </div>
+    {%- endunless -%}
 
     <div class="grid md:grid-cols-2 gap-8">
       <!-- ✅ Dynamic Feature Blocks -->
