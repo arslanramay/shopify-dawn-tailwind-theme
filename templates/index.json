@@ -377,7 +377,8 @@
         "column_HgYQ6P"
       ],
       "custom_css": [
-        ".multicolumn__title {justify-content: center;}"
+        ".multicolumn__title {justify-content: center;}",
+        "h3.inline-richtext {font-size: 3rem;}"
       ],
       "name": "RG - Multicolumn Section Type 1",
       "settings": {
