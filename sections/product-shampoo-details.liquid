@@ -13,6 +13,9 @@
     /* background-color: #194D40;
     color: #ffffff; */
   }
+  p.text-sm.text-white {
+    color: #fff;
+  }
   .percentage-heading {
     font-size: 120px;
     font-weight: 800;
@@ -38,12 +41,11 @@
     <div class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
 
       <!-- Left Column -->
-      {% comment %} <div class="multicolumn-list__item grid__item left"> {% endcomment %}
       <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }} col-left">
         {% for block in section.blocks %}
           <div class="multicolumn-card content-container">
             <div class="multicolumn-card__info">
-              <h3 class="inline-richtext text-[#4CD7A8] font-semibold text-lg">{{ block.settings.title }}</h3>
+              <h3 class="inline-richtext font-semibold text-lg">{{ block.settings.title }}</h3>
               <p class="text-sm text-white">{{ block.settings.text }}</p>
             </div>
           </div>
@@ -199,13 +201,13 @@
       "name": "Text Feature Block",
       "settings": [
         {
-          "type": "text",
+          "type": "inline_richtext",
           "id": "title",
           "default": "Thickens Hair",
           "label": "Feature Title"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "text",
           "default": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker.",
           "label": "Feature Description"
