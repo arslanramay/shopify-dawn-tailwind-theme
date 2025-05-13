@@ -312,6 +312,110 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_paD7LP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bU8Cd7": {
+          "type": "column",
+          "settings": {
+            "title": "Saw Palmetto",
+            "text": "<p>Effective in managing hair loss. Studies suggest that saw palmetto may help inhibit the activity of 5-alpha reductase, an enzyme associated with hair loss.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_U6k3yX": {
+          "type": "column",
+          "settings": {
+            "title": "Pumpkin Seeds",
+            "text": "<p>Contain rich, fatty oils that promote existing hair growth, as well as Omega 3, B vitamins, magnesium, iron and protein - all great for the quality and strength of our hair.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_apqrtq": {
+          "type": "column",
+          "settings": {
+            "title": "Almond",
+            "text": "<p>Contains glyceride linoleic acid, a fantastic moisturiser, and Vitamin E which is key to healthy and clean skin. Its high magnesium content also promotes hair growth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QkHrPe": {
+          "type": "column",
+          "settings": {
+            "title": "Rosemary Oil",
+            "text": "<p>Rosemary oil has been traditionally used for hair care and is effective for existing hair growth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PVdLcX": {
+          "type": "column",
+          "settings": {
+            "title": "Tea Tree Oil",
+            "text": "<p>A common ingredient in shampoos, tea tree oil has strong antiseptic, antifungal and antibiotic properties.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hdTnWD": {
+          "type": "column",
+          "settings": {
+            "title": "Aloe Vera",
+            "text": "<p>Eliminates bacteria and combats excessive oil build-up and dandruff on the scalp. Also includes enzymes to moisturise the hair and promote hair growth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zkphtq": {
+          "type": "column",
+          "settings": {
+            "title": "Shea Butter",
+            "text": "<p>Incredibly beneficial and moisturising for the hair and scalp. Soothes dry scalp and helps with dandruff.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ka6HJc": {
+          "type": "column",
+          "settings": {
+            "title": "Limonene",
+            "text": "<p>Known for its antioxidant properties, both internally and externally. If you're prone to dandruff, this will help.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bU8Cd7",
+        "column_U6k3yX",
+        "column_apqrtq",
+        "column_QkHrPe",
+        "column_PVdLcX",
+        "column_hdTnWD",
+        "column_zkphtq",
+        "column_Ka6HJc"
+      ],
+      "name": "Ingredients",
+      "settings": {
+        "title": "Ingredients",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -319,6 +423,7 @@
     "image-with-text",
     "multicolumn",
     "product_shampoo_details_bQVLiG",
-    "related-products"
+    "related-products",
+    "multicolumn_paD7LP"
   ]
 }
