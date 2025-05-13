@@ -37,7 +37,7 @@
 
     <div class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
 
-      <!-- ✅ Left Column -->
+      <!-- Left Column -->
       {% comment %} <div class="multicolumn-list__item grid__item left"> {% endcomment %}
       <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }} col-left">
         {% for block in section.blocks %}
@@ -50,7 +50,7 @@
         {% endfor %}
       </div>
 
-      <!-- ✅ Right Column -->
+      <!-- Right Column -->
       <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }} col-right">
         <p class="text-[#4CD7A8] font-semibold text-lg mb-2">Plant Based</p>
         <h2 class="percentage-heading">100%</h2>
