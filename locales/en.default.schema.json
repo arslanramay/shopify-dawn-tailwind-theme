@@ -2554,6 +2554,9 @@
             "label": "Circle"
           }
         },
+        "header_desktop": {
+          "content": "Desktop Layout"
+        },
         "columns_desktop": {
           "label": "Number of columns on desktop"
         },
