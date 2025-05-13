@@ -121,6 +121,7 @@
         "collapsible_tab_BxTxAm",
         "share"
       ],
+      "disabled": true,
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
@@ -223,6 +224,64 @@
     },
     "product_shampoo_details_bQVLiG": {
       "type": "product-shampoo-details",
+      "blocks": {
+        "feature_GBdiUN": {
+          "type": "feature",
+          "name": "Thickens Hair",
+          "settings": {
+            "title": "Thickens Hair",
+            "text": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker."
+          }
+        },
+        "feature_ir9G64": {
+          "type": "feature",
+          "name": "Essential Vitamins",
+          "settings": {
+            "title": "Essential Vitamins",
+            "text": "A bespoke blend of vitamins and minerals for the ultimate nutrients required for hair growth."
+          }
+        },
+        "feature_NpjGMG": {
+          "type": "feature",
+          "name": "100% Organic",
+          "settings": {
+            "title": "100% Organic",
+            "text": "Plant based, all natural formula, developed for the ultimate results."
+          }
+        },
+        "feature_gMNHr4": {
+          "type": "feature",
+          "name": "Grows Hair",
+          "settings": {
+            "title": "Grows Hair",
+            "text": "By strengthening and nourishing your hair, maximum hair growth will be achieved"
+          }
+        },
+        "feature_CdKzxw": {
+          "type": "feature",
+          "name": "No Chemicals",
+          "settings": {
+            "title": "No Chemicals",
+            "text": "No adverse chemicals, sulfates, paraben and silicone free"
+          }
+        },
+        "feature_hWPkCz": {
+          "type": "feature",
+          "name": "Quick Results",
+          "settings": {
+            "title": "Quick Results",
+            "text": "Our shampoo works fast, expect to see results after just a few washes."
+          }
+        }
+      },
+      "block_order": [
+        "feature_GBdiUN",
+        "feature_ir9G64",
+        "feature_NpjGMG",
+        "feature_gMNHr4",
+        "feature_CdKzxw",
+        "feature_hWPkCz"
+      ],
       "name": "Product Shampoo Details",
       "settings": {
         "heading": "Why Buy Our Hair Thickening Shampoo?",
