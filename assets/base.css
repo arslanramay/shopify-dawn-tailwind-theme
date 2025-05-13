@@ -3681,3 +3681,28 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+/* PDP - Custom CSS by Arslan */
+@media screen and (min-width: 990px) {
+  .section-product-shampoo-details .multicolumn-list__item .col-left {
+    width: 70%;
+    max-width: 70%;
+  }
+  .section-product-shampoo-details .multicolumn-list__item .col-right {
+    width: 28%;
+  }
+}
+
+.section-product-shampoo-details .multicolumn-list__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-product-shampoo-details .multicolumn-list__item .multicolumn-card {
+  width: 50%;
+}
+
+.section-product-shampoo-details .multicolumn-list__item .multicolumn-card__info {
+    padding-left: 0;
+}
