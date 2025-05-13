@@ -215,7 +215,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -286,7 +286,6 @@
       "settings": {
         "title": "Why Buy Our Hair Thickening Shampoo?",
         "heading_size": "h1",
-        "heading": "Why Buy Our Hair Thickening Shampoo?",
         "description": "Our Thickening Shampoo will help your hairline look noticeably thicker.",
         "color_scheme": "scheme-5",
         "columns_desktop": 2,
