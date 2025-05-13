@@ -13,6 +13,9 @@
     /* background-color: #194D40;
     color: #ffffff; */
   }
+  h3.inline-richtext {
+    color: #27c28a;
+  }
   p.text-sm.text-white {
     color: #fff;
   }
@@ -103,17 +106,11 @@
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
     },
-    // {
-    //   "type": "text",
-    //   "id": "heading",
-    //   "default": "Why Buy Our Hair Thickening Shampoo?",
-    //   "label": "Section Heading"
-    // },
     {
-      "type": "richtext",
+      "type": "textarea",
       "id": "description",
-      "default": "Our Thickening Shampoo will help your hairline look noticeably thicker.",
-      "label": "Right Side Description"
+      "default": "Description text goes here",
+      "label": "Right Column Description"
     },
     {
       "type": "color_scheme",
@@ -198,19 +195,19 @@
   "blocks": [
     {
       "type": "feature",
-      "name": "Text Feature Block",
+      "name": "Text Block",
       "settings": [
         {
           "type": "inline_richtext",
           "id": "title",
-          "default": "Thickens Hair",
-          "label": "Feature Title"
+          "default": "Block Title",
+          "label": "Block Title"
         },
         {
-          "type": "richtext",
+          "type": "textarea",
           "id": "text",
-          "default": "Our shampoo will nourish and strengthen your hair, making it noticeably thicker.",
-          "label": "Feature Description"
+          "default": "Description text goes here",
+          "label": "Block Description"
         }
       ]
     }
