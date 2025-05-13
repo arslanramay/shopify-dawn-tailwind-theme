@@ -22,7 +22,6 @@
 
 <div class="section-product-shampoo-details color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px] max-w-screen-xl mx-auto px-4">
-    <!-- ✅ Section Heading -->
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin multicolumn__title">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
@@ -31,24 +30,37 @@
       </div>
     {%- endunless -%}
 
+    {%- assign empty_column = '' -%}
+    {% comment %} {%- if section.settings.columns_mobile == 1 -%}
+      {%- assign empty_column = ' empty-column' -%}
+    {%- endif -%} {% endcomment %}
+
+    {% comment %} <div class="grid md:grid-cols-2 gap-8"> {% endcomment %}
+    {% comment %} <div class="grid grid--1-col-tablet-down grid--2-col-desktop"> {% endcomment %}
+
     {% comment %} <div class="grid md:grid-cols-2 gap-8"> {% endcomment %}
     <div class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
-      <!-- ✅ Dynamic Feature Blocks -->
-      <div class="grid sm:grid-cols-2 gap-6">
+
+      <!-- ✅ Left Column -->
+      {% comment %} <div class="multicolumn-list__item grid__item left"> {% endcomment %}
+      <div class="multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}">
         {% for block in section.blocks %}
-          <div class="space-y-2">
-            <h3 class="text-lg font-semibold text-[#4CD7A8]">{{ block.settings.title }}</h3>
-            <p class="text-sm text-white">{{ block.settings.text }}</p>
+          <div class="multicolumn-card content-container">
+            <div class="multicolumn-card__info">
+              <h3 class="inline-richtext text-[#4CD7A8] font-semibold text-lg">{{ block.settings.title }}</h3>
+              <p class="text-sm text-white">{{ block.settings.text }}</p>
+            </div>
           </div>
         {% endfor %}
       </div>
 
-      <!-- ✅ 100% Panel -->
-      <div class="flex flex-col items-center justify-center text-center text-white px-4">
+      <!-- ✅ Right Column -->
+      <div class="multicolumn-list__item grid__item left">
         <p class="text-[#4CD7A8] font-semibold text-lg mb-2">Plant Based</p>
         <h2 class="percentage-heading">100%</h2>
         <p class="mt-4 max-w-sm text-base">{{ section.settings.description }}</p>
       </div>
+
     </div>
   </div>
 </div>
@@ -79,7 +91,7 @@
     },
     {
       "type": "header",
-      "content": "t:sections.multicolumn.settings.header_desktop.content"
+      "content": "Desktop Layout"
     },
     {
       "type": "range",
