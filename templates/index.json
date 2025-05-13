@@ -374,6 +374,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "174714089393c1eb2b": {
+      "type": "apps",
+      "blocks": {
+        "videowise_video_commerce_videowise_page_widgets_6TaJaM": {
+          "type": "shopify://apps/videowise-video-commerce/blocks/videowise-page-widgets/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+          "settings": {
+            "videowise_embed": "<div class=\"reeview-app-widget\" id=\"reeview-app-widget_668e2c03c826f179bc93da1c\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "videowise_video_commerce_videowise_page_widgets_6TaJaM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -385,6 +402,7 @@
     "collage",
     "video",
     "multicolumn",
-    "section_multicolumn_type_1_D6BhdG"
+    "section_multicolumn_type_1_D6BhdG",
+    "174714089393c1eb2b"
   ]
 }
