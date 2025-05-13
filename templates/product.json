@@ -248,12 +248,39 @@
             "title": "100% Organic",
             "text": "Plant based, all natural formula, developed for the ultimate results."
           }
+        },
+        "feature_gMNHr4": {
+          "type": "feature",
+          "name": "Grows Hair",
+          "settings": {
+            "title": "Grows Hair",
+            "text": "By strengthening and nourishing your hair, maximum hair growth will be achieved"
+          }
+        },
+        "feature_CdKzxw": {
+          "type": "feature",
+          "name": "No Chemicals",
+          "settings": {
+            "title": "No Chemicals",
+            "text": "No adverse chemicals, sulfates, paraben and silicone free"
+          }
+        },
+        "feature_hWPkCz": {
+          "type": "feature",
+          "name": "Quick Results",
+          "settings": {
+            "title": "Quick Results",
+            "text": "Our shampoo works fast, expect to see results after just a few washes."
+          }
         }
       },
       "block_order": [
         "feature_GBdiUN",
         "feature_ir9G64",
-        "feature_NpjGMG"
+        "feature_NpjGMG",
+        "feature_gMNHr4",
+        "feature_CdKzxw",
+        "feature_hWPkCz"
       ],
       "name": "Product Shampoo Details",
       "settings": {
