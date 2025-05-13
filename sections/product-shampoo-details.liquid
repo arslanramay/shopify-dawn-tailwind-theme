@@ -1,5 +1,5 @@
 {% stylesheet %}
-.section-shampoo-details {
+.section-product-shampoo-details {
   background-color: #194D40; /* ✅ Green background */
   color: #ffffff;
 }
@@ -10,8 +10,8 @@
 }
 {% endstylesheet %}
 
-<div class="section-shampoo-details py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px]">
-  <div class="max-w-screen-xl mx-auto px-4">
+<div class="section-product-shampoo-details">
+  <div class="page-width section-{{ section.id }}-padding py-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom }}px] max-w-screen-xl mx-auto px-4">
     <!-- ✅ Editable Section Heading -->
     <h2 class="text-2xl font-bold text-center mb-10">{{ section.settings.heading }}</h2>
 
@@ -40,7 +40,7 @@
 {
   "name": "Product Shampoo Details",
   "tag": "section",
-  "class": "shopify-section section-shampoo-details",
+  "class": "shopify-section section-product-shampoo-details",
   "settings": [
     {
       "type": "text",
