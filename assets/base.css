@@ -3685,11 +3685,11 @@ details-disclosure > details {
 
 /* PDP - Custom CSS by Arslan */
 @media screen and (min-width: 990px) {
-  .section-product-shampoo-details .multicolumn-list__item .col-left {
+  .section-product-shampoo-details .grid--2-col-desktop .grid__item.col-left {
     width: 70%;
     max-width: 70%;
   }
-  .section-product-shampoo-details .multicolumn-list__item .col-right {
+  .section-product-shampoo-details .grid--2-col-desktop .grid__item.col-right {
     width: 28%;
   }
 }
