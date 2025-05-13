@@ -379,49 +379,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "section_two_column_info_F6iApn": {
-      "type": "section-two-column-info",
-      "blocks": {
-        "column_9yLkFE": {
-          "type": "column",
-          "name": "Left Column",
-          "settings": {
-            "heading": "<strong>100%</strong>",
-            "description": "<p><strong>Plant Based, No Chemicals, All Natural Formulas</strong></p><p>Unlock the secret to beautiful, healthy hair with our <strong>Ayurvedic</strong> hair cosmetics. Drawing on <strong>centuries-old Ayurvedic wisdom</strong>, our products are meticulously crafted from the finest natural ingredients to provide the ultimate care for your hair.</p>",
-            "image": "shopify://shop_images/Screenshot_2025-05-08_at_11.39.46_PM.png"
-          }
-        },
-        "column_kyNYke": {
-          "type": "column",
-          "name": "Right Column",
-          "disabled": true,
-          "settings": {
-            "heading": "<strong>Powerful Individually, Unstoppable As One</strong>",
-            "description": "<p><strong>Why use one when</strong></p><p>We bring together everything that you’ll need tackle hair loss, <strong>improve, grow and thicken</strong> your hair. Regrowz’s products have helped the hair of more than <strong>20,000 customers</strong> all over the world.</p>",
-            "image": "shopify://shop_images/regrowz_ultimateKit_noBG_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "column_9yLkFE",
-        "column_kyNYke"
-      ],
-      "name": "RG: Two Column Info",
-      "settings": {
-        "title": "<strong>Healthy Hair 360º</strong>",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "AAA",
-        "button_link": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -433,7 +390,6 @@
     "collage",
     "video",
     "multicolumn",
-    "section_two_column_info_BPKdLF",
-    "section_two_column_info_F6iApn"
+    "section_two_column_info_BPKdLF"
   ]
 }
