@@ -204,7 +204,7 @@
         "column-0",
         "column-1"
       ],
-      "name": "RG: Multicolumn",
+      "name": "Multicolumn",
       "settings": {
         "title": "Custom section with BG color",
         "heading_size": "h1",
@@ -282,7 +282,7 @@
         "feature_NpjGMG",
         "feature_hWPkCz"
       ],
-      "name": "Product Shampoo Details",
+      "name": "RG: Product Shampoo Details",
       "settings": {
         "title": "Why Buy Our Hair Thickening Shampoo?",
         "heading_size": "h1",
