@@ -404,6 +404,7 @@
       "blocks": {
         "collapsible_row_EkQJEG": {
           "type": "collapsible_row",
+          "name": "FAQ 1",
           "settings": {
             "heading": "What is the scent of the shampoo?",
             "icon": "none",
@@ -413,6 +414,7 @@
         },
         "collapsible_row_rqjGPn": {
           "type": "collapsible_row",
+          "name": "FAQ 2",
           "settings": {
             "heading": "How often should I use?",
             "icon": "none",
@@ -422,6 +424,7 @@
         },
         "collapsible_row_aDqpCG": {
           "type": "collapsible_row",
+          "name": "FAQ 3",
           "settings": {
             "heading": "Is your Thickening Shampoo natural?",
             "icon": "none",
@@ -431,10 +434,21 @@
         },
         "collapsible_row_qH8dGJ": {
           "type": "collapsible_row",
+          "name": "FAQ 4",
           "settings": {
             "heading": "How can I achieve the quickest results?",
             "icon": "none",
             "row_content": "<p>We recommend uisng daily along with our Hair & Scalp Dermaroller and Hair Conditioner, to achieve the quickest and best results.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Qkerd7": {
+          "type": "collapsible_row",
+          "name": "FAQ 5",
+          "settings": {
+            "heading": "How long does a bottle last?",
+            "icon": "check_mark",
+            "row_content": "<p>If used daily a bottle will last around 30-45 days depending on the length of your hair.</p>",
             "page": ""
           }
         }
@@ -443,9 +457,10 @@
         "collapsible_row_EkQJEG",
         "collapsible_row_rqjGPn",
         "collapsible_row_aDqpCG",
-        "collapsible_row_qH8dGJ"
+        "collapsible_row_qH8dGJ",
+        "collapsible_row_Qkerd7"
       ],
-      "name": "FAQs",
+      "name": "FAQs - Shampoo",
       "settings": {
         "caption": "",
         "heading": "FAQs",
