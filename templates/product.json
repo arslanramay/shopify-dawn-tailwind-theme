@@ -495,6 +495,70 @@
         "padding_bottom": 36
       }
     },
+    "featured_product_qqJ6mx": {
+      "type": "featured-product",
+      "blocks": {
+        "text_xjhtTp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_hKCq3M": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_kCVYCn": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_whCcKe": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_Bc8dPB": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons_6K6hb7": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_xjhtTp",
+        "title_hKCq3M",
+        "price_kCVYCn",
+        "variant_picker_whCcKe",
+        "quantity_selector_Bc8dPB",
+        "buy_buttons_6K6hb7"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "complete-miracle-hair-kit",
+        "color_scheme": "scheme-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_64X9Ah": {
       "type": "collapsible-content",
       "blocks": {
@@ -563,7 +627,7 @@
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -614,6 +678,7 @@
     "image_with_text_Rt8fhP",
     "multicolumn_W8byHx",
     "multicolumn_paD7LP",
+    "featured_product_qqJ6mx",
     "collapsible_content_64X9Ah",
     "related-products",
     "17472490785e9c77cb"
