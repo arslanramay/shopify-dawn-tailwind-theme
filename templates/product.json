@@ -493,6 +493,21 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "17472490785e9c77cb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_iE7EiR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_iE7EiR"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -502,6 +517,7 @@
     "product_shampoo_details_bQVLiG",
     "multicolumn_paD7LP",
     "collapsible_content_64X9Ah",
-    "related-products"
+    "related-products",
+    "17472490785e9c77cb"
   ]
 }
