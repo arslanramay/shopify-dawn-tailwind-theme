@@ -334,6 +334,63 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_W8byHx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fKb3DW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hair-loss-section-image-1.webp",
+            "title": "<strong>DHT Blocks Nutrients</strong>",
+            "text": "<p>DHT (dihydrotestosterone) is a hormone that prevents nutrients being absorbed by your hair follicles.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fnrKFW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hair-loss-section-image-2.webp",
+            "title": "Nutrient Deficienc<strong>y</strong>",
+            "text": "<p>Over time this nutrient deficiency causes the hair follicle to weaken and die.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_96q3nB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hair-loss-section-image-3.webp",
+            "title": "<strong>Hair Loss</strong>",
+            "text": "<p>Once the follicle dies, the hair will become dislodged from the scalp leading to thinning hair</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fKb3DW",
+        "column_fnrKFW",
+        "column_96q3nB"
+      ],
+      "name": "Hair Loss Section",
+      "settings": {
+        "title": "<strong>Why Does Hair Loss Occur?</strong>",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-5",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "multicolumn_paD7LP": {
       "type": "multicolumn",
       "blocks": {
@@ -555,6 +612,7 @@
     "multicolumn",
     "product_shampoo_details_bQVLiG",
     "image_with_text_Rt8fhP",
+    "multicolumn_W8byHx",
     "multicolumn_paD7LP",
     "collapsible_content_64X9Ah",
     "related-products",
