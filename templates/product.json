@@ -447,7 +447,7 @@
           "name": "FAQ 5",
           "settings": {
             "heading": "How long does a bottle last?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>If used daily a bottle will last around 30-45 days depending on the length of your hair.</p>",
             "page": ""
           }
@@ -467,8 +467,8 @@
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
+        "color_scheme": "scheme-5f00a6e9-a7cd-473b-b187-574478ded641",
+        "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
