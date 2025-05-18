@@ -190,6 +190,7 @@
           "settings": {
             "title": "Free Shipping",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -199,6 +200,7 @@
           "settings": {
             "title": "Hassle-Free Exchanges",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -348,6 +350,7 @@
             "image": "shopify://shop_images/hair-loss-section-image-1.webp",
             "title": "<strong>DHT Blocks Nutrients</strong>",
             "text": "<p>DHT (dihydrotestosterone) is a hormone that prevents nutrients being absorbed by your hair follicles.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -358,6 +361,7 @@
             "image": "shopify://shop_images/hair-loss-section-image-2.webp",
             "title": "Nutrient Deficienc<strong>y</strong>",
             "text": "<p>Over time this nutrient deficiency causes the hair follicle to weaken and die.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -368,6 +372,7 @@
             "image": "shopify://shop_images/hair-loss-section-image-3.webp",
             "title": "<strong>Hair Loss</strong>",
             "text": "<p>Once the follicle dies, the hair will become dislodged from the scalp leading to thinning hair</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -405,6 +410,7 @@
           "settings": {
             "title": "Saw Palmetto",
             "text": "<p>Effective in managing hair loss. Studies suggest that saw palmetto may help inhibit the activity of 5-alpha reductase, an enzyme associated with hair loss.</p>",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -414,6 +420,7 @@
           "settings": {
             "title": "Pumpkin Seeds",
             "text": "<p>Contain rich, fatty oils that promote existing hair growth, as well as Omega 3, B vitamins, magnesium, iron and protein - all great for the quality and strength of our hair.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -423,6 +430,7 @@
           "settings": {
             "title": "Almond",
             "text": "<p>Contains glyceride linoleic acid, a fantastic moisturiser, and Vitamin E which is key to healthy and clean skin. Its high magnesium content also promotes hair growth.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -432,6 +440,7 @@
           "settings": {
             "title": "Rosemary Oil",
             "text": "<p>Rosemary oil has been traditionally used for hair care and is effective for existing hair growth.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -441,6 +450,7 @@
           "settings": {
             "title": "Tea Tree Oil",
             "text": "<p>A common ingredient in shampoos, tea tree oil has strong antiseptic, antifungal and antibiotic properties.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -450,6 +460,7 @@
           "settings": {
             "title": "Aloe Vera",
             "text": "<p>Eliminates bacteria and combats excessive oil build-up and dandruff on the scalp. Also includes enzymes to moisturise the hair and promote hair growth.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -459,6 +470,7 @@
           "settings": {
             "title": "Shea Butter",
             "text": "<p>Incredibly beneficial and moisturising for the hair and scalp. Soothes dry scalp and helps with dandruff.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
@@ -468,6 +480,7 @@
           "settings": {
             "title": "Limonene",
             "text": "<p>Known for its antioxidant properties, both internally and externally. If you're prone to dandruff, this will help.</p>",
+            "heading_color": "",
             "link_label": "",
             "link": ""
           }
