@@ -501,7 +501,7 @@
       ],
       "name": "Ingredients",
       "settings": {
-        "title": "Ingredients",
+        "title": "<strong>Ingredients</strong>",
         "heading_size": "h0",
         "heading_color": "#000000",
         "image_width": "full",
