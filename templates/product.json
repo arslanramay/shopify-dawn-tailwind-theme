@@ -496,6 +496,9 @@
         "column_zkphtq",
         "column_Ka6HJc"
       ],
+      "custom_css": [
+        "h3.block-heading {font-weight: 700; font-size: 24px; line-height: 29px;}"
+      ],
       "name": "Ingredients",
       "settings": {
         "title": "Ingredients",
