@@ -420,7 +420,7 @@
           "settings": {
             "title": "Pumpkin Seeds",
             "text": "<p>Contain rich, fatty oils that promote existing hair growth, as well as Omega 3, B vitamins, magnesium, iron and protein - all great for the quality and strength of our hair.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -430,7 +430,7 @@
           "settings": {
             "title": "Almond",
             "text": "<p>Contains glyceride linoleic acid, a fantastic moisturiser, and Vitamin E which is key to healthy and clean skin. Its high magnesium content also promotes hair growth.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -440,7 +440,7 @@
           "settings": {
             "title": "Rosemary Oil",
             "text": "<p>Rosemary oil has been traditionally used for hair care and is effective for existing hair growth.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -450,7 +450,7 @@
           "settings": {
             "title": "Tea Tree Oil",
             "text": "<p>A common ingredient in shampoos, tea tree oil has strong antiseptic, antifungal and antibiotic properties.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -460,7 +460,7 @@
           "settings": {
             "title": "Aloe Vera",
             "text": "<p>Eliminates bacteria and combats excessive oil build-up and dandruff on the scalp. Also includes enzymes to moisturise the hair and promote hair growth.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -470,7 +470,7 @@
           "settings": {
             "title": "Shea Butter",
             "text": "<p>Incredibly beneficial and moisturising for the hair and scalp. Soothes dry scalp and helps with dandruff.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -480,7 +480,7 @@
           "settings": {
             "title": "Limonene",
             "text": "<p>Known for its antioxidant properties, both internally and externally. If you're prone to dandruff, this will help.</p>",
-            "heading_color": "",
+            "heading_color": "#3a5e52",
             "link_label": "",
             "link": ""
           }
@@ -500,7 +500,7 @@
       "settings": {
         "title": "Ingredients",
         "heading_size": "h1",
-        "heading_color": "#329b75",
+        "heading_color": "#000000",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
