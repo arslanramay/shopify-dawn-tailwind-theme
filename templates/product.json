@@ -212,6 +212,7 @@
       "settings": {
         "title": "Custom section with BG color",
         "heading_size": "h1",
+        "heading_color": "#121212",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -381,6 +382,7 @@
       "settings": {
         "title": "<strong>Why Does Hair Loss Occur?</strong>",
         "heading_size": "h0",
+        "heading_color": "#121212",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -485,6 +487,7 @@
       "settings": {
         "title": "Ingredients",
         "heading_size": "h1",
+        "heading_color": "#329b75",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
