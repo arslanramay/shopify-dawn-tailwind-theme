@@ -502,7 +502,7 @@
       "name": "Ingredients",
       "settings": {
         "title": "Ingredients",
-        "heading_size": "h1",
+        "heading_size": "h0",
         "heading_color": "#000000",
         "image_width": "full",
         "image_ratio": "adapt",
