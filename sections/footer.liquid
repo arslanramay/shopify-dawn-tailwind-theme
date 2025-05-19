@@ -149,6 +149,20 @@
                             height="{{ block.settings.image.height }}"
                           >
                         </div>
+
+                        <!-- BEGIN Custom Section - Arslan -->
+                        <div class="contact-info-footer">
+                          <p>
+                          UK Customer Support: <a href="tel:01617110111">+44 (0)161 711 0111</a><br/>
+                          USA Customer Support: <a href="tel:17185358781">+1 718 535 8781</a><br/>
+                          Email: <a href="mailto:info@regrowz.com">info@regrowz.com</a>
+                          </p>
+                        </div>
+                        {%- if block.settings.show_social -%}
+                          {%- render 'social-icons' -%}
+                        {%- endif -%}
+                        <!-- END Custom Section - Arslan -->
+
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
