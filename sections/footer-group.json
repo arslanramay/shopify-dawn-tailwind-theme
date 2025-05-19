@@ -16,9 +16,18 @@
       "blocks": {
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Regrowz Logo",
             "subtext": "<p>UK Customer Support: +4400000</p><p>USA Customer Support: +1987566</p>"
+          }
+        },
+        "image_yn9a9W": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo_003fcc59-6e4f-416f-88c6-8dc08e4f7074.png",
+            "image_width": 275,
+            "alignment": "center"
           }
         },
         "footer-0": {
@@ -46,6 +55,7 @@
       },
       "block_order": [
         "footer-2",
+        "image_yn9a9W",
         "footer-0",
         "footer-1",
         "link_list_G6Wwzt"
