@@ -3711,6 +3711,9 @@ details-disclosure > details {
 .footer-block.grid__item:first-child {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
 }
+.footer-block.grid__item.footer-block--menu {
+    width: calc(16% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+}
 
 .footer-block__details-content.footer-block-image {
     flex-direction: column;
