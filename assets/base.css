@@ -3715,6 +3715,14 @@ details-disclosure > details {
     width: calc(16% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
 }
 
+@media screen and (max-width: 767px) {
+  .footer-block.grid__item:first-child {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 .footer-block__details-content.footer-block-image {
     flex-direction: column;
 }
