@@ -3706,3 +3706,8 @@ details-disclosure > details {
 .section-product-shampoo-details .multicolumn-list__item .multicolumn-card__info {
     padding-left: 0;
 }
+
+/* Footer CSS - Arslan */
+.footer-block__details-content.footer-block-image {
+    flex-direction: column;
+}
