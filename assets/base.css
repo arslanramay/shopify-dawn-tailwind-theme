@@ -3708,6 +3708,10 @@ details-disclosure > details {
 }
 
 /* Footer CSS - Arslan */
+.footer-block__details-content.footer-block-image {
+    flex-direction: column;
+}
+
 .footer-block.grid__item:first-child {
     width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
 }
@@ -3720,9 +3724,9 @@ details-disclosure > details {
     width: 100%;
     text-align: center;
   }
+  .footer-block.grid__item.footer-block--menu {
+      width: 50%;
+  }
 }
 
 
-.footer-block__details-content.footer-block-image {
-    flex-direction: column;
-}
