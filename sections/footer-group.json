@@ -27,7 +27,7 @@
           "settings": {
             "image": "shopify://shop_images/logo_003fcc59-6e4f-416f-88c6-8dc08e4f7074.png",
             "image_width": 275,
-            "alignment": "center"
+            "alignment": ""
           }
         },
         "footer-0": {
